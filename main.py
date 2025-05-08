@@ -22,6 +22,9 @@ if grab_result.GrabSucceeded():
     cv2.imshow('Basler Image', img_array)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
+    # Save image to file
+    cv2.imwrite('image.png', img_array)
 else:
     print("Image grab failed")
 

@@ -1,0 +1,5 @@
+RED_WAVELENGTH = 625 #in nanometers
+BLUE_WAVELENGTH = 470
+GREEN_WAVELENGTH = 550
+GAMMA = 2.2 #(assumed)
+
